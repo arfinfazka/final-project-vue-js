@@ -1,0 +1,44 @@
+@import 'bootstrap/dist/css/bootstrap.css';
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+:root{
+    --bs-primary: #009499;
+    --bs-primary-rgb: rgba(0,148,153,1);
+}
+.btn-primary {
+  --bs-btn-bg: #009499;
+  --bs-btn-border-color: #009499;
+
+  --bs-btn-hover-bg: #007a7e;
+  --bs-btn-hover-border-color: #007a7e;
+
+  --bs-btn-active-bg: #006b6f;
+  --bs-btn-active-border-color: #006b6f;
+
+  --bs-btn-disabled-bg: #009499;
+  --bs-btn-disabled-border-color: #009499;
+
+  --bs-btn-focus-shadow-rgb: 0, 148, 153;
+}
+.btn-outline-primary {
+  --bs-btn-color: #009499;
+  --bs-btn-border-color: #009499;
+
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #009499;
+  --bs-btn-hover-border-color: #009499;
+
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #006b6f;
+  --bs-btn-active-border-color: #006b6f;
+
+  --bs-btn-disabled-color: #009499;
+  --bs-btn-disabled-border-color: #009499;
+
+  --bs-btn-focus-shadow-rgb: 0, 148, 153;
+}
+
+.bg-primary{
+    background-color: var(--bs-primary) !important;
+}

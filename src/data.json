@@ -1,0 +1,54 @@
+{
+  "products": {
+    "-NhnpoR9ca5KYtfD9uJh": {
+      "category": "Dress",
+      "color": "Pink",
+      "description": "Smooth, comfortable dress with an elegant cut suitable for business wear.",
+      "image": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/465187/sub/goods_465187_sub14_3x4.jpg",
+      "name": "AIRism Ultra Stretch Sleeveless Dress",
+      "price": "399000",
+      "shipping": "20000",
+      "size": "S"
+    },
+    "-NhnqXLUngTnnpMleFG8": {
+      "category": "T-Shirts (Short Sleeves)",
+      "color": "Purple",
+      "description": "Smooth 'AIRism' cotton-look fabric. The loose-fitting cut and slightly shorter length make this stand out.",
+      "image": "https://image.uniqlo.com/UQ/ST3/id/imagesgoods/465185/sub/idgoods_465185_sub17_3x4.jpg",
+      "name": "AIRism Cotton Short Sleeve T-Shirt",
+      "price": "199000",
+      "shipping": "20000",
+      "size": "L"
+    },
+    "-OvFcyx65BASFo6Qcx5S": {
+      "category": "T-Shirts (Short Sleeves)",
+      "color": "Purple",
+      "description": "Smooth 'AIRism' cotton-look fabric. The loose-fitting cut and slightly shorter length make this stand out.",
+      "image": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/481004/sub/goods_481004_sub14_3x4.jpg",
+      "name": "AIRism Cotton Short Sleeve T-Shirt",
+      "price": "199000",
+      "shipping": "20000",
+      "size": "L"
+    },
+    "-OvFewx5EZuL00hA3tE-": {
+      "category": "T-Shirts (Short Sleeves)",
+      "color": "Purple",
+      "description": "Smooth 'AIRism' cotton-look fabric. The loose-fitting cut and slightly shorter length make this stand out.",
+      "image": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/485455/sub/goods_485455_sub14_3x4.jpg",
+      "name": "AIRism Cotton Short Sleeve T-Shirt",
+      "price": "199000",
+      "shipping": "20000",
+      "size": "L"
+    },
+    "-OvFfCX2-WK8lIx69DeJ": {
+      "category": "T-Shirts (Short Sleeves)",
+      "color": "Purple",
+      "description": "Smooth 'AIRism' cotton-look fabric. The loose-fitting cut and slightly shorter length make this stand out.",
+      "image": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/482766/sub/goods_482766_sub14_3x4.jpg",
+      "name": "AIRism Cotton Short Sleeve T-Shirt",
+      "price": "199000",
+      "shipping": "20000",
+      "size": "L"
+    }
+  }
+}
