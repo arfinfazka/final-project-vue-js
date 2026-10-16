@@ -15,6 +15,7 @@ onMounted(async () => {
         "product/getProductDetail", route.params.id
     )
     productDetail.value = store.state.product.productDetail
+    document.title = `${productDetail.value.name} | Vintage`
 })
 
 const itemDescription = ref([

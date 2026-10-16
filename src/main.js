@@ -15,6 +15,14 @@ const router = createRouter({
     }
 })
 
+router.afterEach((to, from, failure) => {
+  if (!failure && typeof to.meta.title === 'string') {
+    document.title = to.meta.title
+  }
+})
+
+
+
 const app = createApp(App)
 app.use(store)
 app.use(router)

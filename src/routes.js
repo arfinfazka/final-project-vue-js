@@ -7,12 +7,50 @@ import Cookies from "js-cookie";
 import { store } from "./store/index.js";
 
 export const routes = [
-    {path: "/", name: "home", component: Home, beforeEnter: async () => {await checkAuth ()},},
-    {path: "/product/:id", name: "detail-product", component: DetailProduct},
-    {path: "/signup", name: "signup", component: SignUp},
-    {path: "/login", name: "login", component: LogIn},
-    {path: "/user", name: "user", component: User, beforeEnter: async (to, from, next) => {
+    {
+        path: "/", 
+        name: "home", 
+        component: Home, 
+        meta: { title: 'Vintage'}, 
+        beforeEnter: async () => {
+            await checkAuth ()
+        },
+        
+    },
+    {
+        path: "/product/:id", 
+        name: "detail-product", 
+        component: DetailProduct,
+        beforeEnter: async () => {
+            await checkAuth ()
+        },
+    },
+    {path: "/signup", 
+        name: "signup", 
+        component: SignUp,
+        meta: { title: 'SignUp | Vintage'},
+        beforeEnter: async () => {
+            await checkAuth ()
+        },
+    },
+    {path: "/login", 
+        name: "login", 
+        component: LogIn,
+        meta: { title: 'Login | Vintage'},
+        beforeEnter: async () => {
+            await checkAuth ()
+        },
+    },
+    {path: "/user", 
+        name: "user", 
+        component: User, 
+        meta: { title: 'User | Vintage'},
+        beforeEnter: async () => {
+            await checkAuth ()
+        },
+        beforeEnter: async (to, from, next) => {
         await checkAuth () ? next () : next ({ name: "login" });
+        
     }},
 ]
 
